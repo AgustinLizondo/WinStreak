@@ -1,0 +1,26 @@
+.shadowContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.shadowContainer img{
+    width: 30%;
+    border-radius: 24px 0;
+    box-shadow: 0 0 12px var(--shadowCcc);
+    margin: 0 1.5%;
+    border-bottom: 4px solid rgba(0, 0, 0, .6);
+    border-right: 4px solid rgba(0, 0, 0, .6);
+    transition: all .4s;
+    cursor: pointer;
+}
+.shadowContainer img:hover{
+    transition: all .4s;
+    transform: scale(1.05);
+    border-bottom: 4px solid rgba(0, 0, 0, 1);
+    border-right: 4px solid rgba(0, 0, 0, 1);
+}
+.topH2{
+    margin-bottom: .6em;
+
+}
