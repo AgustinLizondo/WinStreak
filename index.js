@@ -1,5 +1,7 @@
-let bPhoto = document.querySelector('.bPhoto');
+let bPhoto = document.querySelectorAll('.bPhoto');
 
-bPhoto.addEventListener('click', ()=>{
-    window.location.assign('product.html');
-})
+for (let i of bPhoto){
+    i.addEventListener('click', ()=>{
+        window.location.assign('product.html');
+    })
+}
