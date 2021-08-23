@@ -1,8 +1,15 @@
 .bigContainer{
     display: flex;
 }
-.bigContainer div{
-    flex-basis: 50%;
+.bigContainer .productsInCart, .productsInCart div{
+    flex-basis: 75%;
+    margin: 1em;
+    border-radius: 0 24px;
+    box-shadow: 1px 1px 12px var(--shadowCcc);
+    padding: 8px;
+}
+.bigContainer .totalAmount{
+    flex-basis: 25%;
     margin: 1em;
     border-radius: 0 24px;
     box-shadow: 1px 1px 12px var(--shadowCcc);
@@ -19,5 +26,11 @@
 }
 .productShown img:hover{
     transition: all .4s;
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+.totalAmount h3{
+    margin: 12px;
+}
+.ratingOf:hover{
+    transform: scale(1.05);
 }
