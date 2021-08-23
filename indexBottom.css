@@ -1,8 +1,12 @@
+body{
+    overflow: hidden;
+}
 .shadowContainer{
     display: flex;
     width: 100%;
     justify-content: center;
     overflow: visible;
+    transition: all 2s;
 }
 .shadowContainer img{
     width: 30%;
@@ -30,4 +34,8 @@
 .moveRight{
     transform: translateX(40%);
     transition: all 2s;  
+}
+.moveCenter{
+    transform: translateX(0%);
+    transition: all 2s;
 }
