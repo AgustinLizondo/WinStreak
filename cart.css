@@ -1,0 +1,23 @@
+.bigContainer{
+    display: flex;
+}
+.bigContainer div{
+    flex-basis: 50%;
+    margin: 1em;
+    border-radius: 0 24px;
+    box-shadow: 1px 1px 12px var(--shadowCcc);
+    padding: 8px;
+}
+.productShown img{
+    margin: 12px 0 0 0;
+    width: 25%;
+    border-radius: 0 24px;
+    transition: all .4s;
+}
+.productShown h3{
+    margin: 4px 24px;
+}
+.productShown img:hover{
+    transition: all .4s;
+    transform: scale(1.2);
+}
