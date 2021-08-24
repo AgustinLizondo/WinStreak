@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .productShower{
     width: 100%;
     display: flex;
