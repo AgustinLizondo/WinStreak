@@ -1,0 +1,12 @@
+.frequentQuestions{
+}
+.question{
+    box-shadow: 1px 1px 15px var(--shadowCcc);
+    border-radius: 0 24px;
+    margin: 16px;
+    padding: 8px;
+}
+.question h3{
+    margin-bottom: 8px;
+    
+}
