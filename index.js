@@ -26,15 +26,3 @@ for (let i of bPhoto){
         moveCenter();
     }, 15000);
 }
-
-// let moving = true;
-// while (moving){
-//     setInterval(() => {
-//         moveLeft();     
-//     }, 2500);
-//     setInterval(() => {
-//         moveRight();     
-//     }, 7500);
-//     setTimeout(() => {
-//         moving = false;    
-//     }, 50000); }
