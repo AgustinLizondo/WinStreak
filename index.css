@@ -178,6 +178,10 @@ h2{
 
 
 footer{
-    margin-top: 24px;
+    margin: 24px 0;
     text-align: center;
+}
+footer h4{
+    background: #fff;
+    padding: 8px
 }
